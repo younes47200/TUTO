@@ -2,7 +2,7 @@
 
 const matches = [
     {
-        name: "PSG vs Marseille",
+        name: "PSG vs L'Olympique de Marseille",
         image: "psg-marseille.png",
         link: "https://www.beinsports.com/fr-fr/football/ligue-1#news"
     },
