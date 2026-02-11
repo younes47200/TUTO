@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grille des Matchs - beIN SPORTS</title>
+    <title>Ligue 1 - Grille des Matchs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Grille des Matchs</h1>
+        <h1>Grille des Matchs - Ligue 1</h1>
         <nav class="main-nav">
             <a href="index.html">Accueil</a> |
             <a href="ligue1.html">Ligue 1</a> |
             <a href="liga.html">Liga</a> |
             <a href="premierleague.html">Premier League</a>
         </nav>
-        <p>Bienvenue sur la plateforme de suivi des grandes affiches de football !</p>
-        <p>Retrouvez ici la liste des matchs à venir, cliquez sur une affiche pour accéder à la diffusion officielle sur beIN SPORTS.</p>
+        <p>Retrouvez ici la liste des matchs de Ligue 1 à venir, cliquez sur une affiche pour accéder à la diffusion officielle sur beIN SPORTS.</p>
     </header>
+    <main>
         <div id="matches-grid" class="grid-container"></div>
     </main>
     <footer>
         <p>© 2026 Grille des Matchs. Redirection vers beIN SPORTS uniquement.</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+      afficherMatchsParCompetition('Ligue 1');
+    </script>
 </body>
 </html>
