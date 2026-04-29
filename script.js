@@ -22,13 +22,13 @@ const matches = [
     },
     {
         name: "Bayern Munich vs Borussia Dortmund",
-        image: "https://static.beinsports.com/image/bayern-dortmund.jpg",
+        image: "./bayern.png",
         link: "https://www.beinsports.com/fr-fr/football/bundesliga#news",
         competition: "Bundesliga"
     },
     {
         name: "Juventus vs AC Milan",
-        image: "https://static.beinsports.com/image/juve-milan.jpg",
+        image: "./juventus-Acmilan.png",
         link: "https://www.beinsports.com/france/serie-a/juventus-vs-milan",
         competition: "Serie A"
     }
